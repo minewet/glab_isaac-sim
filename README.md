@@ -3,7 +3,7 @@ Robot simulation in sk 404-1 using Omniverse Isaac sim
 
 ## Files
 - _sk_: usd files needed (robot, sk building, materials)
-- _code_: extension/standAlone code for simulation - paste it to ```C:\users\(사용자)\appdata\local\ov\pkg\isaac_sim-2022.1.1\exts ```
+- _code_: extension/standAlone code for simulation - paste it to ```C:\users\(사용자)\appdata\local\ov\pkg\isaac_sim-(version)\ ```
 
 **apsolute path in the code is not edited yet. 
 
