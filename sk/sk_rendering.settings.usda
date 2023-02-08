@@ -1,0 +1,20 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary renderSettings = {
+            double "rtx:directLighting:diffuseBackscattering:shadowOffset" = 100
+            bool "rtx:directLighting:sampledLighting:enabled" = 1
+            int "rtx:domeLight:baking:resolution" = 16
+            bool "rtx:flow:pathTracingEnabled" = 1
+            bool "rtx:flow:pathTracingShadowsEnabled" = 1
+            bool "rtx:flow:rayTracedReflectionsEnabled" = 1
+            bool "rtx:flow:rayTracedShadowsEnabled" = 1
+            bool "rtx:flow:rayTracedTranslucencyEnabled" = 1
+            string "rtx:lightspeed:ReLAX:fireflySuppressionType" = "None"
+            bool "rtx:pathtracing:domeLight:primaryRaysEvaluateDomelightMdlDirectly" = 1
+            bool "rtx:raytracing:fractionalCutoutOpacity" = 1
+            double "rtx:sceneDb:ambientLightIntensity" = 0
+        }
+    }
+)
+
